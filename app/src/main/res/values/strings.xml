@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LCO</string>
+    <string name="welcome">Welcome!</string>
+    <string name="get_started">Get started with</string>
+    <string name="sign_up_with">Or sign up with</string>
+    <string name="email">Email</string>
+    <string name="already">Already onboard?</string>
+    <string name="login">Login</string>
+    <string name="hello">Hello.</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pwd">Password</string>
+    <string name="hint_confirm_pwd">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register_error">All fields must be filled out</string>
+    <string name="wel_back">Welcome Back</string>
+    <string name="ny_register">Not yet registered?</string>
+    <string name="signup">Signup</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/lco_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/code_logo"
+        android:background="@drawable/icon_background"
+        android:elevation="8dp"
+        android:padding="15dp"
+        android:layout_marginTop="37dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/welcome"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:lineSpacingExtra="-3dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/get_started"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:layout_marginLeft="33dp"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="2dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/facebook_button_layout"
+            android:layout_marginRight="9dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/google_button_layout"
+            android:layout_marginRight="9dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/twitter_button_layout"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_with"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="33dp"/>
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/email_button_layout"
+        android:text="@string/email"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="14dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/dark_blue"
+        android:layout_marginLeft="6dp"
+        android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

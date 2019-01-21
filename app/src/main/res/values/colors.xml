@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_blue">#3B5998</color>
+    <color name="fb_bg">#3B5998</color>
+    <color name="twitter_bg">#00ACED</color>
+    <color name="grey">#40000000</color>
+</resources>
